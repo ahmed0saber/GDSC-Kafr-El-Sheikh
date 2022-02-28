@@ -1,3 +1,7 @@
+## Preview at
+https://ahmed0saber.github.io/GDSC-Kafr-El-Sheikh/3-Card/
+
+
 # Frontend Mentor - Order summary card
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
