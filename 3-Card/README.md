@@ -1,5 +1,6 @@
 ## Preview at
-https://ahmed0saber.github.io/GDSC-Kafr-El-Sheikh/3-Card/
+https://ahmed0saber.github.io/GDSC-Kafr-El-Sheikh/3-Card/index.html
+
 
 
 # Frontend Mentor - Order summary card
