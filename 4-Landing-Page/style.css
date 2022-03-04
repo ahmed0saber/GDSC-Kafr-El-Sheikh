@@ -274,6 +274,16 @@ footer .icons-container img{
     .keep{
         text-align: center;
     }
+    .keep h1{
+        margin: 10px auto;
+        text-align: center;
+        padding: 0 4px;
+    }
+    .keep p{
+        max-width: 96%;
+        text-align: center;
+        padding: 0 4px;
+    }
     .keep .row{
         flex-direction: column;
         align-items: center;
