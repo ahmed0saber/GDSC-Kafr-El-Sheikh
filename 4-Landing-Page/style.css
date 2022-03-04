@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Bai Jamjuree", monospace;
+}
+body{
+    background-color: #f7f7f7
+}
+.home{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #f7f7f7 url(./images/bg-header-desktop.png) no-repeat top;
+}
+.home img{
+    width: 70px;
+    height: 70px;
+    margin: 0 0 26px 0;
+}
+.home h1{
+    color: hsl(210, 10%, 33%);
+    margin: 10px 4px;
+}
+.home p{
+    color: hsl(201, 11%, 66%);
+    margin: 2px 4px 36px 4px;
+    max-width: 580px;
+}
+.home div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.home div a{
+    padding: 8px 24px;
+    color: #f7f7f7;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid #08080880;
+    margin: 2px 6px;
+}
+.home div a:first-of-type{
+    background-color: hsl(171, 66%, 44%);
+}
+.home div a:last-of-type{
+    background-color: hsl(233, 100%, 69%);
+}
+
+.keep{
+    text-align: center;
+}
+.keep h1{
+    color: hsl(210, 10%, 33%);
+    margin: 10px 4px;
+}
+.keep p{
+    color: hsl(201, 11%, 66%);
+    margin: 2px auto 36px auto;
+    max-width: 580px;
+}
+.keep .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.keep .col{
+    flex: 1;
+    text-align: left;
+}
+.keep .col:last-of-type{
+    padding: 10px 50px 10px 60px;
+}
+.keep .col img{
+    width: 100%;
+}
+.keep .col div{
+    margin: 40px 0 0 0;
+}
+.keep .col h3{
+    color: hsl(210, 10%, 33%);
+}
+.keep .col p{
+    color: hsl(201, 11%, 66%);
+    max-width: 340px;
+    margin: 0;
+}
+
+.access{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.access h2{
+    padding: 120px 4px 14px 4px;
+    color: hsl(210, 10%, 33%);
+}
+.access p{
+    color: hsl(201, 11%, 66%);
+    padding: 0 0 60px 0;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.access img{
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 10px auto;
+}
+
+.supercharge{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.supercharge h2{
+    padding: 60px 4px 14px 4px;
+    color: hsl(210, 10%, 33%);
+}
+.supercharge p{
+    color: hsl(201, 11%, 66%);
+    padding: 0 0 60px 0;
+    max-width: 640px;
+    margin: 0 auto;
+}
+.supercharge .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 900px;
+}
+.supercharge .row .col{
+    text-align: center;
+    padding: 10px;
+    flex: 1;
+}
+.supercharge .row .col img{
+    margin: 2px 2px 20px 2px;
+    height: 38px;
+}
+.supercharge .row .col h3{
+    padding: 12px 2px;
+    color: hsl(210, 10%, 33%);
+}
+.supercharge .row .col p{
+    color: hsl(201, 11%, 66%);
+}
+
+.sponsored{
+    padding: 20px 4px;
+}
+.sponsored .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.sponsored .row img{
+    margin: 20px;
+    width: 70%;
+    height: auto;
+    flex: 1;
+}
+
+.clipboard{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.clipboard img{
+    width: 70px;
+    height: 70px;
+    margin: 0 0 26px 0;
+}
+.clipboard h1{
+    color: hsl(210, 10%, 33%);
+    margin: 16px 4px;
+}
+.clipboard p{
+    color: hsl(201, 11%, 66%);
+    margin: 10px 4px 36px 4px;
+    max-width: 580px;
+}
+.clipboard div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.clipboard div a{
+    padding: 8px 24px;
+    color: #f7f7f7;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid #08080880;
+    margin: 2px 6px;
+}
+.clipboard div a:first-of-type{
+    background-color: hsl(171, 66%, 44%);
+}
+.clipboard div a:last-of-type{
+    background-color: hsl(233, 100%, 69%);
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+}
+footer .img-container{
+    margin: 0px 40px;
+    flex: 1;
+}
+footer .img-container img{
+    width: 50px;
+}
+footer .text-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    flex-wrap: wrap;
+    padding: 4px 10px;
+    flex: 3;
+}
+footer .text-container a{
+    width: 200px;
+    text-decoration: none;
+    padding: 2px 0px;
+    margin: 2px 0px;
+}
+footer .icons-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex: 1;
+}
+footer .icons-container img{
+    margin: 6px;
+}
+
+@media screen and (max-width: 800px) {
+    .home img{
+        width: 120px;
+        height: 120px;
+    }
+    .home div{
+        flex-direction: column;
+        width: 100%;
+    }
+    .home div a{
+        width: 80%;
+        padding: 12px 0px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .keep .row{
+        flex-direction: column;
+    }
+    .keep .col{
+        text-align: center;
+    }
+    .keep .col img{
+        width: 90%;
+    }
+
+    .supercharge .row{
+        flex-direction: column;
+        padding: 6px 20px;
+    }
+
+    .sponsored .row{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsored .row img{
+        margin: 30px;
+        width: 75%;
+    }
+
+    .clipboard div{
+        flex-direction: column;
+        width: 100%;
+    }
+    .clipboard div a{
+        width: 80%;
+        padding: 12px 0px;
+        display: block;
+        margin: 10px auto;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    footer .text-container{
+        text-align: center;
+        padding: 10px 10px;
+    }
+    footer .text-container a{
+        width: 100%;
+    }
+    footer .icons-container img{
+        margin: 12px;
+    }
+}
